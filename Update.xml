@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Update>
   <Soft Name="Setup">
-    <Verson>1.22.7.0622</Verson>
+    <Verson>1.22.11.0619</Verson>
 	 <DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v1.22.11.0619/SmartTools_Install_x86_64.exe</DownLoad>
     <KeyForSwdy>0</KeyForSwdy>
 	 <DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v1.22.11.0619/Key for SWDY.exe</DownLoad>
