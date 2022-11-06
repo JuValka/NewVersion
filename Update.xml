@@ -2,8 +2,8 @@
 <Update>
   <Soft Name="Setup">
     <Verson>1.22.7.0622</Verson>
-	 <DownLoad>https://api.iassist.top/tools/appUpdate/SmartTools_Install.exe</DownLoad>
+	 <DownLoad>https://github.com/JuValka/NewVersion/releases/download/v1.2.7.622/SmartTools_Install_x86_64.exe</DownLoad>
     <KeyForSwdy>0</KeyForSwdy>
-	 <DownLoad>https://api.iassist.top/tools/appUpdate/Key for SWDY.exe</DownLoad>
+	 <DownLoad>https://github.com/JuValka/NewVersion/releases/download/v1.2.7.622/Key for SWDY.exe</DownLoad>
   </Soft>
 </Update>
