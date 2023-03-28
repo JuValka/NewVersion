@@ -2,7 +2,7 @@
 <Update>
   <Soft Name="Setup">
     <Verson>1.23.03.2819</Verson>
-	 <DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v1.23.03.1813/SmartTools_Install_x86_64.exe</DownLoad>
+	 <DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v1.23.03.2819/SmartTools_Install_x86_64.exe</DownLoad>
      <Tag>
      1.修改 “文件操作>替换标牌相同贴图” 功能
      2.增加LAS转TXT(Format(XYZTI))
