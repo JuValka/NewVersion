@@ -3,7 +3,12 @@
   <Soft Name="Setup">
     <Verson>1.23.03.1813</Verson>
 	 <DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v1.23.03.1813/SmartTools_Install_x86_64.exe</DownLoad>
-    <KeyForSwdy>0</KeyForSwdy>
-	 <DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v1.22.11.0619/Key for SWDY.exe</DownLoad>
+     <Tag>
+     1.修改 “文件操作>替换标牌相同贴图” 功能
+     2.增加LAS转TXT(Format(XYZTI))
+     3.新增点矢量去重复 “数据转换>Point FeaturePD” 
+     </Tag>
+     <KeyForSwdy>0</KeyForSwdy>
+	 <DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v1.22.11.0619/Key for SWDY.exe</DownLoad>   
   </Soft>
 </Update>
