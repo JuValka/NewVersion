@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Update>
   <Soft Name="Setup">
-    <Verson>1.23.04.3019</Verson>
+    <Verson>1.23.04.3020</Verson>
 	 <DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v1.23.04.3019/SmartTools_Install_x86_64_obs.exe</DownLoad>
      <Tag>
      1.更新部分UI
