@@ -2,7 +2,7 @@
 <Update>
   <Soft Name="Setup">
     <Verson>1.23.04.3019</Verson>
-	 <DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v1.23.04.3019/SmartTools_Install_x86_64_obs.exe</DownLoad>
+	 <DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v2.0.23.924/SmartTools_Install_x86_64_obs.exe</DownLoad>
      <Tag>
      1.更新部分UI
      2.移除部分第三方dll
