@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Update>
   <Soft Name="Setup">
-    <Verson>2.0.23.925</Verson>
+    <Verson>2.0.23.924</Verson>
 	 <DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v2.0.23.924/SmartTools_Install_x86_64_obs.exe</DownLoad>
      <Tag>
-     1.更新部分UI
-     2.移除部分第三方dll
-     3.增加部分功能
+     1.增加字节使用fea文件进行字段映射功能,无需通过arcgis进行转换和相关操作
+    该功能使用时,可能出现部分对象无法成功映射,需要进行手动处理
+     2.修复其他bug
      </Tag>
      <KeyForSwdy>0</KeyForSwdy>
 	 <DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v1.22.11.0619/Key for SWDY.exe</DownLoad>   
