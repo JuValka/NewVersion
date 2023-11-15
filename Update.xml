@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Update>
   <Soft Name="Setup">
-    <Verson>2.0.23.929</Verson>
-	 <DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v2.0.23.929-a/SmartTools_v2.0.23.929_obs_x64_Setup.exe</DownLoad>
+    <Verson>2.0.23.1111</Verson>
+	 <DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v2.0.23.1111/SmartTools_v2.0.23.1111_obs_x64_Setup.exe</DownLoad>
      <Tag>
-     v2.0.23.929 alpha
-    1.更新字段映射方法,正确完整率大于99%
-    2.修复更新程序的崩溃问题
-    3.修复诸多逻辑错误
-    4.更新LAS1.2 FID 0/1/2/3的读写转换
-	5.更新CAD插件到2023版
-	6.更新Windows10和office 365永久激活插件
+     v2.0.23.1111
+     1.取消固定内存空间,占用更小的内存
+     2.修复其他逻辑错误
      </Tag>
      <KeyForSwdy>0</KeyForSwdy>
-	 <DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v1.22.11.0619/Key for SWDY.exe</DownLoad>   
+	 <!--<DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v1.22.11.0619/Key for SWDY.exe</DownLoad> -->
   </Soft>
 </Update>
