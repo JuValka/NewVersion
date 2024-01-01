@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Update>
   <Soft Name="Setup">
-    <Verson>2.0.23.1111</Verson>
-	 <DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v2.0.23.1111/SmartTools_v2.0.23.1111_obs_x64_Setup.exe</DownLoad>
+    <Verson>2.0.24.1</Verson>
+	 <DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v2.0.24.1/SmartTools_v2.0.24.1_obs_x64_Setup.exe</DownLoad>
      <Tag>
      v2.0.23.1111
      1.取消固定内存空间,占用更小的内存
