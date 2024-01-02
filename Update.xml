@@ -5,8 +5,12 @@
 	 <DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v2.0.24.1/SmartTools_v2.0.24.1_obs_x64_Setup.exe</DownLoad>
      <Tag>
      v2.0.24.1
-     1.取消固定内存空间,占用更小的内存
-     2.修复其他逻辑错误
+     a.增加侧边栏
+     1.增加LAS点云分割
+     2.二进制互转文本
+     3.优化矢量落地使用方式
+     4.增加对LAS点云落地的支持
+     5.增加对ATD转为矢量fea的支持,包含点和
      </Tag>
      <KeyForSwdy>0</KeyForSwdy>
 	 <!--<DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v1.22.11.0619/Key for SWDY.exe</DownLoad> -->
