@@ -1,1 +1,10 @@
-
+<?xml version="1.0" encoding="utf-8" ?>
+<domain>
+  <V6 Name="oltools.tk">
+     <Verson>1.0.0.0</Verson>
+	 <Update>http://xxxx/xxx</Update>
+     <Tag>
+     企鹅群:123456
+     </Tag>
+  </V6>
+</domain>
