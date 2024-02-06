@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <domain>
   <V6 Name="api.oltools.tk">
-     <Verson>1.0.0.4</Verson>
+     <Verson>1.0.0.2</Verson>
 	 <Update>https://gitee.com/JuValka/NewVersion/releases/download/v1.0.0.1/PalWorld_Connect_IPv6_v1.0.0.1.exe</Update>
      <Tag>
      企鹅群:941578815
