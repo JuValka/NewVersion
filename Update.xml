@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Update>
   <Soft Name="Setup">
-    <Verson>2.0.24.3717</Verson>
+    <Verson>2.0.24.43022</Verson>
 	 <DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v2.0.24.3717/SmartTools_v2.0.24.3717_obs_x64_Setup.exe</DownLoad>
      <Tag>
-    Verson:2.0.24.3717
-    1.(√)增加Sym/Xml分别平移或同时平移坐标的功能
-    2.(√)增加一键整理工程资源Resource的功能
-    3.(√)增加fea多段线/点/多边形创建不同的Buffer三维缓冲区功能
-    4.(√)批量改名增加计数
-    5.(√)集成XMB-ICP点云配准程序  and LAS.ICP
-    6.(√)新增fea节点优化细分
-     .(...)增加符号Sym转为代理OSG的功能 (旋转矩阵未应用)
-     .(...)增加符号XML转为代理OSG的功能 (无旋转矩阵)
-     .(...)增加使用SYM修复Xml的功能
-     .(...)增加使用Fea重生成XML的功能
-     .(...)增加一键生成并平移合并Proxy OSG (旋转矩阵未应用)
-     .(...)增加平移并合并SYM为中间文件用于转换代理OSG (无法用于SWDY的浏览,它是错误的数据格式)
+    Verson:2.0.24.43022
+    1.(√)新增fea转Shp(不符合规范的复合对象会被分离)
+    2.(√)合并点线面转Buffer功能,自动识别数据类型
+    3.(√)新增fea转GeoJson(不符合规范的复合对象会被分离)
+    4.(√)多段线曲线平滑
+    5.(√)线串反向
+    6.(√)调整创建swDY-MappingCodec工具
+    7.(√)新增fea数据检查工具beta
+    -----------------------------------------------------
+    #已知问题:非规范形式的符合几何体,在转换时存在以下问题
+    #.(X)Point/Line/polygon 或 
+    #.(X)Point/Line 或 
+    #.(X)Line/Polygon 或 
+    #.(X)Point/polygon  (不符合规范图形的) 组合体的转换功能存在缺陷
+    # 以上形式 Toshapefile和GeoJson时,将重新拆分不符合范围的类型
+    # Buffer 时,将出现不完整数据,因此Bufer的输入应为规范形式的数据
+    # MultiPoint Toshapefile 时,将被拆分
+    # MultiPoint ToGeoJSON 时保持不变
+    # 总之:所有符合和规范的类型将重新输出为规范的形式
+    # 继承上个版本的遗留问题(ㄒoㄒ)/~~
      </Tag>
      <KeyForSwdy>0</KeyForSwdy>
 	 <!--<DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v1.22.11.0619/Key for SWDY.exe</DownLoad> -->
