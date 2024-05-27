@@ -1,29 +1,26 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Update>
   <Soft Name="Setup">
-    <Verson>2.0.24.43022</Verson>
-	 <DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v2.0.24.43022/SmartTools_v2.0.24.43022_obs_x64_Setup.exe</DownLoad>
+    <Verson>2.0.24.52217</Verson>
+	 <DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v2.0.24.52217/SmartTools_v2.0.24.52217_obs_x64_Setup.exe</DownLoad>
      <Tag>
-    Verson:2.0.24.43022
-    1.(√)新增fea转Shp(不符合规范的复合对象会被分离)
-    2.(√)合并点线面转Buffer功能,自动识别数据类型
-    3.(√)新增fea转GeoJson(不符合规范的复合对象会被分离)
-    4.(√)多段线曲线平滑
-    5.(√)线串反向
-    6.(√)调整创建swDY-MappingCodec工具
-    7.(√)新增fea数据检查工具beta
-    -----------------------------------------------------
-    #已知问题:非规范形式的符合几何体,在转换时存在以下问题
-    #.(X)Point/Line/polygon 或 
-    #.(X)Point/Line 或 
-    #.(X)Line/Polygon 或 
-    #.(X)Point/polygon  (不符合规范图形的) 组合体的转换功能存在缺陷
-    # 以上形式 Toshapefile和GeoJson时,将重新拆分不符合范围的类型
-    # Buffer 时,将出现不完整数据,因此Bufer的输入应为规范形式的数据
-    # MultiPoint Toshapefile 时,将被拆分
-    # MultiPoint ToGeoJSON 时保持不变
-    # 总之:所有符合和规范的类型将重新输出为规范的形式
-    # 继承上个版本的遗留问题(ㄒoㄒ)/~~
+    Verson:2.0.24.52217
+    1.(√)调整To Shapefile/To GeoJson
+    2.(√)新增GeoJSON转为Fea
+    3.(√)新增SHP转为Fea
+	#要素转换暂仅支持使用WGS84坐标系
+    4.(√)更新FeatureChecks
+        #支持检查文件/字段类型/字段值是否符合编码规范
+        #支持检擦指定字段值是否符合指定长度
+        #支持检查多Fea中是否存在重复唯一值
+        #支持额外附加类码和类名值
+        #支持从指定目录添加包含子目录的所有Fea
+        #支持拖放文件/文件夹到列表,自动识别FEA
+        #记录前一次使用的检查参数文件
+        #快速修改参数
+        #可视化表编辑字段
+        #自动根据Codec修改Fea字段
+        #导出检查表
      </Tag>
      <KeyForSwdy>0</KeyForSwdy>
 	 <!--<DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v1.22.11.0619/Key for SWDY.exe</DownLoad> -->
