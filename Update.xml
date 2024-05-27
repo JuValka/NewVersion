@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Update>
   <Soft Name="Setup">
-    <Verson>2.0.24.52218</Verson>
+    <Verson>2.0.24.52217</Verson>
 	 <DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v2.0.24.52217/SmartTools_v2.0.24.52217_obs_x64_Setup.exe</DownLoad>
      <Tag>
     Verson:2.0.24.52217
