@@ -21,6 +21,8 @@
         #可视化表编辑字段
         #自动根据Codec修改Fea字段
         #导出检查表
+        #保持上次使用的状态
+        #增加附加选项
      </Tag>
      <KeyForSwdy>0</KeyForSwdy>
 	 <!--<DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v1.22.11.0619/Key for SWDY.exe</DownLoad> -->
