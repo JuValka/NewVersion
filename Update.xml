@@ -1,28 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Update>
   <Soft Name="Setup">
-    <Verson>2.0.24.52217</Verson>
-	 <DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v2.0.24.52217/SmartTools_v2.0.24.52217_obs_x64_Setup.exe</DownLoad>
+    <Verson>2.0.24.53117</Verson>
+	 <DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v2.0.24.53117/SmartTools_v2.0.24.53117_obs_x64_Setup.exe</DownLoad>
      <Tag>
-    Verson:2.0.24.52217
-    1.(√)调整To Shapefile/To GeoJson
-    2.(√)新增GeoJSON转为Fea
-    3.(√)新增SHP转为Fea
-	#要素转换暂仅支持使用WGS84坐标系
-    4.(√)更新FeatureChecks
-        #支持检查文件/字段类型/字段值是否符合编码规范
-        #支持检擦指定字段值是否符合指定长度
-        #支持检查多Fea中是否存在重复唯一值
-        #支持额外附加类码和类名值
-        #支持从指定目录添加包含子目录的所有Fea
-        #支持拖放文件/文件夹到列表,自动识别FEA
-        #记录前一次使用的检查参数文件
-        #快速修改参数
-        #可视化表编辑字段
-        #自动根据Codec修改Fea字段
-        #导出检查表
-        #保持上次使用的状态
-        #增加附加选项
+    Verson:2.0.24.53117
+        1.(√)更新FeatureChecks
+        #记录上次关闭时的参数和状态
+        #新增附加参数选项
+        2.(√)新增功能：Linked连接属性
+        3.(√)新增功能：自动捕捉两个图层的相同端点或小于阈值的首尾点
+        4.(√)修复：buffer将自身替换的错误
+        5.(√)新增功能：切除单个文件指定时间区间的点云
+        6.(√)修复：fea中心、中间点的取值类型
+        7.(√)修复：属性表关联出现错误关系
+        8.(√)工具箱图标消失的问题
+        9.(√)新增功能：点到面中心的连线
+        10.(√)修复平移读写点云时最大最小坐标错误的问题
+        11.(√)修复进度条问题
      </Tag>
      <KeyForSwdy>0</KeyForSwdy>
 	 <!--<DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v1.22.11.0619/Key for SWDY.exe</DownLoad> -->
