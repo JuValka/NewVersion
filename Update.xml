@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Update>
   <Soft Name="Setup">
-    <Verson>2.0.24.53117</Verson>
+    <Verson>2.0.25.1</Verson>
     <Date>2025</Date>
-	 <DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v2.0.24.53117/SmartTools_v2.0.24.53117_obs_x64_Setup.exe</DownLoad>
+	 <DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/2.0.25.1/SmartTools_v2.0.25.1_obs_x64_Setup.exe</DownLoad>
      <Tag>
-    Verson:2.0.24.53117
-        1.(√)更新FeatureChecks
-        #记录上次关闭时的参数和状态
-        #新增附加参数选项
-        2.(√)新增功能：Linked连接属性
-        3.(√)新增功能：自动捕捉两个图层的相同端点或小于阈值的首尾点
-        4.(√)修复：buffer将自身替换的错误
-        5.(√)新增功能：切除单个文件指定时间区间的点云
-        6.(√)修复：fea中心、中间点的取值类型
-        7.(√)修复：属性表关联出现错误关系
-        8.(√)工具箱图标消失的问题
-        9.(√)新增功能：点到面中心的连线
-        10.(√)修复平移读写点云时最大最小坐标错误的问题
-        11.(√)修复进度条问题
+    Verson:2.0.25.1
+       修复已知错误.
      </Tag>
      <KeyForSwdy>0</KeyForSwdy>
 	 <!--<DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v1.22.11.0619/Key for SWDY.exe</DownLoad> -->
