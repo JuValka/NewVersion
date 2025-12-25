@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Update>
+  <Soft Name="Setup">
+     <Date>2025</Date>
+     <Verson>2.0.25.1</Verson>
+	 <DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/2.0.25.1/SmartTools_v2.0.25.1_obs_x64_Setup.exe</DownLoad>
+     <Tag>
+       Verson:2.0.25.1
+       修复已知错误.
+     </Tag>
+     <KeyForSwdy>0</KeyForSwdy>
+	 <!--<DownLoad>https://gitee.com/JuValka/NewVersion/releases/download/v1.22.11.0619/Key for SWDY.exe</DownLoad> -->
+  </Soft>
+</Update>
